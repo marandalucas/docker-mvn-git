@@ -10,4 +10,4 @@ LABEL maintainer="Marcos Aranda" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
-RUN apk add --update git openssh && rm -rf /var/cache/apk/*
+RUN apk add --update git openssh nodejs && rm -rf /var/cache/apk/*
